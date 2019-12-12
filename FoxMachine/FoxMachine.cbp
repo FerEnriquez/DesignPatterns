@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FoxMachine" />
+		<Option pch_mode="2" />
+		<Option compiler="null" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FoxMachine.jar" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="null" />
+				<Compiler>
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FoxMachine.jar" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="null" />
+				<Compiler>
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="Main.java" />
+		<Unit filename="include/5Discount.h" />
+		<Unit filename="include/Customer.h" />
+		<Unit filename="include/DiscountCalculationFlexibly.h" />
+		<Unit filename="include/FrequentPartener.h" />
+		<Unit filename="include/NoDiscount.h" />
+		<Unit filename="include/ReducesFixedAmount.h" />
+		<Unit filename="src/5Discount.cpp" />
+		<Unit filename="src/Customer.cpp" />
+		<Unit filename="src/DiscountCalculationFlexibly.cpp" />
+		<Unit filename="src/FrequentPartener.cpp" />
+		<Unit filename="src/NoDiscount.cpp" />
+		<Unit filename="src/ReducesFixedAmount.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
